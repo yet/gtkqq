@@ -12,7 +12,7 @@ git push
 cd /tmp/
 git clone git@github.com:gtkqq/gtkqq.github.com.git 
 cd - 
-cp * /tmp/gtkqq.github.com
+cp * /tmp/gtkqq.github.com -r
 cd /tmp/gtkqq.github.com
 git add .
 git commit -a -m 'updated on `date`'
